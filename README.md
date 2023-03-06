@@ -3,6 +3,7 @@ React Information site
 
 # Deployed Version
 
+ [Click Here](https://reactinfolightmode.netlify.app/)
 
 
 ## Technologies

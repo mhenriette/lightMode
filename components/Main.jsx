@@ -1,4 +1,5 @@
 import React from "react";
+import reactjson from '../src/assets/reactjs-icon.svg'
 
 function Main({ current }) {
   return <div className={`px-8 relative ${current ? 'bg-white text-black' : 'bg-[#282D35] text-white'} `}>
@@ -14,7 +15,7 @@ function Main({ current }) {
       </ul>
     </div>
     <div className="absolute top-[50%] right-0">
-      <img src='/src/assets/reactjs-icon.svg' />
+      <img src={reactjson} alt='reactjs-icon' />
     </div>
   </div>;
 }
